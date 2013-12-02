@@ -12,12 +12,12 @@ syntax on
 set hlsearch
 "colorscheme molokai
 colorscheme desert
-"colorscheme ap_dark8
 
 filetype on
 filetype indent on
 filetype plugin on
 
+" カッコの入力の後に左にカーソルを動かす
 inoremap {} {}<LEFT>
 inoremap [] []<LEFT>
 inoremap () ()<LEFT>
@@ -25,26 +25,22 @@ inoremap "" ""<LEFT>
 inoremap '' ''<LEFT>
 inoremap <> <><LEFT>
 
+" MacVim用
 nnoremap j gj
-nnoremap gk gk
+nnoremap k gk
 
-" インサートモードからコマンドモードへ
-inoremap <C-c> <Esc>
-" インサートモードでカーソルを左へ移動
-inoremap <C-h> <Esc>i
-" インサートモードでカーソルを右へ移動
-inoremap <C-l> <Esc><Right>a
-
+" vimでハードタブ（タブ文字）とか全角スペースの表示
 highlight JpSpace cterm=underline ctermfg=Blue guifg=Blue
 au BufRead,BufNew * match JpSpace /　/
 
+"□や○の文字があってもカーソル位置がずれないようにする。
+set ambiwidth=double
+
+" バッファの一覧を表示
 nmap bb :ls<CR>:buf 
 
 "日本語の行の連結時には空白を入力しない。
 set formatoptions+=mM
-
-"□や○の文字があってもカーソル位置がずれないようにする。
-set ambiwidth=double
 
 "画面最後の行をできる限り表示する。
 set display+=lastline
