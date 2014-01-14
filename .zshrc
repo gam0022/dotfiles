@@ -46,9 +46,7 @@ plugins=(git osx)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-#export PATH=$PATH:/Users/gam0022/.rvm/gems/ruby-1.9.2-p320/bin:/Users/gam0022/.rvm/gems/ruby-1.9.2-p320@global/bin:/Users/gam0022/.rvm/rubies/ruby-1.9.2-p320/bin:/Users/gam0022/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/gam0022/.rvm/bin:/Users/gam0022/bin:/Users/gam0022/.local/bin
-
-export PATH=$PATH:$HOME/bin:$HOME/.local/bin
+export PATH=$PATH:$HOME/bin:/usr/local/bin:/usr/local/texlive/2013/bin/x86_64-darwin
 alias ll='ls -alF'
 alias l='ls'
 alias sshe='cocot -t UTF-8 -p EUC-JP -- ssh' #EUC-JP環境にsshする
@@ -76,3 +74,5 @@ setopt transient_rprompt
 
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 eval "$(rbenv init -)"
+
+EDITOR=mvim
