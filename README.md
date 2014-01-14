@@ -57,7 +57,7 @@ ln -s dotfiles/.vim/userautoload .vim/userautoload
 最後に MacVim を起動して、`:NeoBundleInstall` をします。
 
 
-### Windoes
+### Windows
 
 基本的にはMacと同じです。
 
