@@ -86,5 +86,4 @@ nnoremap subp y:OverCommandLine<CR>%s!<C-r>=substitute(@0, '!', '\\!', 'g')<CR>!
 
 " 分割した設定ファイルをすべて読み込む
 set runtimepath+=~/.vim/
-set runtimepath+=$VIM/.vim/
 runtime! userautoload/*.vim
