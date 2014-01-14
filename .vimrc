@@ -68,9 +68,6 @@ set backspace=indent,eol,start
 " https://github.com/itchyny/lightline.vim
 let g:lightline = {
       \ 'colorscheme': 'wombat',
-      \ 'component': {
-      \   'readonly': '%{&readonly?"⭤":""}',
-      \ }
       \ }
 set laststatus=2
 
