@@ -59,18 +59,19 @@ ln -s dotfiles/.vim/userautoload .vim/userautoload
 
 ### Windows
 
-基本的にはMacと同じです。
+基本的にはMacと同じですが、`mklink`は`ln`と src と dst が逆なので注意が必要です。
 
 
 GVimでは、`~` が `C:\Users\<ユーザ名>` となるようです。
 
+
 ```bash
 cd C:\Users\<ユーザ名>\
-mklink dotfiles/.vimrc .vimrc
+mklink .vimrc dotfiles\.vimrc
 
 mkdir .vim
-mklink /d dotfiles/.vim/colors .vim/colors
-mklink /d dotfiles/.vim/userautoload .vim/userautoload
+mklink /d .vim\colors dotfiles\.vim\colors
+mklink /d .vim\userautoload dotfiles\.vim\userautoload
 ```
 
 最後に GVim を起動して、`:NeoBundleInstall` をします。

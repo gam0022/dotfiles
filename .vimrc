@@ -10,6 +10,10 @@ set wildmenu wildmode=list:full
 
 syntax on
 set hlsearch
+filetype on
+filetype indent on
+filetype plugin on
+
 "colorscheme molokai
 colorscheme desert
 
@@ -30,9 +34,6 @@ elseif has('xfontset')
   set guifontset=a14,r14,k14
 endif
 
-filetype on
-filetype indent on
-filetype plugin on
 
 " カッコの入力の後に左にカーソルを動かす
 inoremap {} {}<LEFT>
@@ -72,14 +73,17 @@ let g:lightline = {
 set laststatus=2
 
 
+" vim-over
 " http://qiita.com/PSP_T/items/3a1af1301ee197b32a8a
-" over.vimの起動
-" nnoremap <silent> <Leader>m :OverCommandLine<CR>
-nnoremap <silent> ; :OverCommandLine<CR>
-" カーソル下の単語をハイライト付きで置換
+" ファイル全体の置換
+nnoremap :%s :OverCommandLine<CR>%s///g<Left><Left><Left>
+" 選択範囲の置換
+xnoremap :s :OverCommandLine<CR>s///g<Left><Left><Left>
+" カーソル下の単語を置換
 nnoremap sub :OverCommandLine<CR>%s/<C-r><C-w>//g<Left><Left>
-" コピーした文字列をハイライト付きで置換
+" コピーした文字列を置換
 nnoremap subp y:OverCommandLine<CR>%s!<C-r>=substitute(@0, '!', '\\!', 'g')<CR>!!gI<Left><Left><Left>
+
 
 " 分割した設定ファイルをすべて読み込む
 set runtimepath+=~/.vim/
