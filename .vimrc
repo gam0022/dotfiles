@@ -75,10 +75,14 @@ set laststatus=2
 
 " vim-over
 " http://qiita.com/PSP_T/items/3a1af1301ee197b32a8a
-" ファイル全体の置換
-nnoremap :%s :OverCommandLine<CR>%s///g<Left><Left><Left>
-" 選択範囲の置換
-xnoremap :s :OverCommandLine<CR>s///g<Left><Left><Left>
+"
+if has('win32')
+  " ファイル全体の置換
+  nnoremap :%s :OverCommandLine<CR>%s///g<Left><Left><Left>
+  " 選択範囲の置換
+  xnoremap :s :OverCommandLine<CR>s///g<Left><Left><Left>
+endif
+
 " カーソル下の単語を置換
 nnoremap sub :OverCommandLine<CR>%s/<C-r><C-w>//g<Left><Left>
 " コピーした文字列を置換

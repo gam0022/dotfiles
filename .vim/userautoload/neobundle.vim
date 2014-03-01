@@ -24,6 +24,7 @@ NeoBundle 'Lokaltog/vim-easymotion', '09c0cea8'   " This plugin is locked at rev
 NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'osyo-manga/vim-over'
+NeoBundle 'othree/html5.vim'
 
 
 " vim-scripts repos
