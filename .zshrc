@@ -76,3 +76,9 @@ setopt transient_rprompt
 eval "$(rbenv init -)"
 
 EDITOR=mvim
+
+# Sublime Text 3
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
+# https://github.com/Homebrew/homebrew/issues/21920
+export PGDATA=/usr/local/var/postgres
