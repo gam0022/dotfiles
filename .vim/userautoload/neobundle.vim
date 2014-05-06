@@ -19,17 +19,17 @@ NeoBundle 'Shougo/vimproc'
 "
 " Note: You don't set neobundle setting in .gvimrc!
 " Original repos on github
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'Lokaltog/vim-easymotion', '09c0cea8'   " This plugin is locked at revision 09c0cea8 
+"NeoBundle 'tpope/vim-fugitive'
+"NeoBundle 'Lokaltog/vim-easymotion', '09c0cea8'   " This plugin is locked at revision 09c0cea8 
 NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'osyo-manga/vim-over'
 NeoBundle 'othree/html5.vim'
-
+NeoBundle 'kchmck/vim-coffee-script'
 
 " vim-scripts repos
 NeoBundle 'L9'
-NeoBundle 'FuzzyFinder'
+"NeoBundle 'FuzzyFinder'
 NeoBundle 'rails.vim'
 " Non github repos
 "NeoBundle 'git://git.wincent.com/command-t.git'
