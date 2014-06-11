@@ -26,6 +26,7 @@ NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'osyo-manga/vim-over'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'Yggdroot/indentLine'
 
 " vim-scripts repos
 NeoBundle 'L9'
