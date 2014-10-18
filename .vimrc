@@ -1,7 +1,14 @@
 set number
+
 set tabstop=2
-"set tabstop=8
 set shiftwidth=2
+
+".c, .cpp, .hでタブ幅を4に変更
+au BufNewFile,BufRead *.c    set nowrap tabstop=4 shiftwidth=4
+au BufNewFile,BufRead *.cpp  set nowrap tabstop=4 shiftwidth=4
+au BufNewFile,BufRead *.h    set nowrap tabstop=4 shiftwidth=4
+au BufNewFile,BufRead *.java set nowrap tabstop=4 shiftwidth=4
+
 set autoindent
 set incsearch
 set expandtab
