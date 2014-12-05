@@ -46,7 +46,7 @@ plugins=(git osx)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:$HOME/bin:/usr/local/bin:/usr/local/texlive/2013/bin/x86_64-darwin
+export PATH=$PATH:$HOME/bin:/usr/local/bin:/usr/local/texlive/2013/bin/x86_64-darwin:/usr/local/octave/3.8.0/bin
 alias ll='ls -alF'
 alias l='ls'
 alias sshe='cocot -t UTF-8 -p EUC-JP -- ssh' #EUC-JP環境にsshする
