@@ -82,3 +82,6 @@ alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
 # https://github.com/Homebrew/homebrew/issues/21920
 export PGDATA=/usr/local/var/postgres
+
+# LaTex
+alias xbb='extractbb'
