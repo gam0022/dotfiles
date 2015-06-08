@@ -109,6 +109,9 @@ if executable('osascript')
     \ call system(g:force_alphanumeric_input_command)
 endif
 
+" Conceal機能を無効化する
+let g:tex_conceal=''
+
 " 分割した設定ファイルをすべて読み込む
 set runtimepath+=~/.vim/
 runtime! userautoload/*.vim
