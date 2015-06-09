@@ -1,5 +1,3 @@
-"" neocomplcache
-NeoBundle 'Shougo/neocomplcache'
 " Disable AutoComplPop.
 let g:acp_enableAtStartup = 0
 " Use neocomplcache.

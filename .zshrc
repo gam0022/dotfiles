@@ -56,7 +56,7 @@ alias sshe='cocot -t UTF-8 -p EUC-JP -- ssh' #EUC-JP環境にsshする
 #export LSCOLORS=DxGxcxdxCxegedabagacad
 #PS1='\[\033[36m\][\u@\h:\[\033[33m\]\w\[\033[36m\]]\[\033[0m\] \$ '
 # http://helloworld.hifumi.info/post/22182948927/mac-octave
-export GNUTERM=x11
+#export GNUTERM=X11
 
 # http://www.coins.tsukuba.ac.jp/~fukui/CG/ex1.htm
 alias  glcc='gcc -framework OpenGL -framework GLUT -framework Foundation "$@"'
@@ -85,3 +85,6 @@ export PGDATA=/usr/local/var/postgres
 
 # LaTex
 alias xbb='extractbb'
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
