@@ -54,6 +54,20 @@ ln -s dotfiles/.vim/colors .vim/colors
 ln -s dotfiles/.vim/userautoload .vim/userautoload
 ```
 
+```bash
+cd ~
+ln -s dotfiles/.vimrc .vimrc
+
+mkdir .vim
+cd .vim
+
+mkdir userautoload
+ln -s ~/dotfiles/.vim/userautoload/* .
+
+mkdir colors
+ln -s ~/dotfiles/.vim/colors/* .
+```
+
 最後に MacVim を起動して、`:NeoBundleInstall` をします。
 
 
