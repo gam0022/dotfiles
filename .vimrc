@@ -2,6 +2,7 @@ set number
 
 set tabstop=2
 set shiftwidth=2
+set encoding=utf-8
 
 ".c, .cpp, .hでタブ幅を4に変更
 au BufNewFile,BufRead *.c    set nowrap tabstop=4 shiftwidth=4
