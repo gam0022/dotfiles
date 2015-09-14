@@ -90,3 +90,12 @@ alias xbb='extractbb'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# go
+export GOROOT=/usr/local/Cellar/go/1.5.1/libexec
+export GOPATH=$HOME/.go/1.5.1
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+# ll_docker
+export PATH=$PATH:~/projects/ll_docker/bin_for_host/
+[[ $(boot2docker status) == "running" ]] && eval "$(boot2docker shellinit)"
