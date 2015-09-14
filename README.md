@@ -43,6 +43,8 @@ ln -s dotfiles/.zshrc ~/.zshrc
 
 Vim については、Mac でも Windows でも両方で使えるような設定を目指しています。
 
+まずは、[NeoBundle](https://github.com/Shougo/neobundle.vim) をインストールします。
+
 ### Mac OS X
 
 ```bash
@@ -62,10 +64,10 @@ mkdir .vim
 cd .vim
 
 mkdir userautoload
-ln -s ~/dotfiles/.vim/userautoload/* .
+ln -s ~/dotfiles/.vim/userautoload/* userautoload
 
 mkdir colors
-ln -s ~/dotfiles/.vim/colors/* .
+ln -s ~/dotfiles/.vim/colors/* colors
 ```
 
 最後に MacVim を起動して、`:NeoBundleInstall` をします。
