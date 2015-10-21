@@ -97,3 +97,6 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # ll_docker
 export PATH=$PATH:$HOME/projects/ll_docker/bin_for_host/
 [[ $(boot2docker status) == "running" ]] && eval "$(boot2docker shellinit)"
+
+# git-tools
+export PATH=$PATH:$HOME/lovelive-operations/git-tools
