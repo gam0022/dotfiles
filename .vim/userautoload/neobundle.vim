@@ -18,24 +18,23 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Add or remove your Bundles here:
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'Shougo/neosnippet-snippets'
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'ctrlpvim/ctrlp.vim'
+" NeoBundle 'tpope/vim-fugitive'
+" NeoBundle 'ctrlpvim/ctrlp.vimctrlpvim/ctrlp.vim'
 NeoBundle 'flazz/vim-colorschemes'
 
 NeoBundle 'Shougo/neocomplcache'
-NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+" NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'Yggdroot/indentLine'
-NeoBundle 'terryma/vim-multiple-cursors'
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'L9'
-NeoBundle 'rails.vim'
+" NeoBundle 'terryma/vim-multiple-cursors'
+" NeoBundle 'scrooloose/nerdtree'
+" NeoBundle 'L9'
+" NeoBundle 'rails.vim'
 
 NeoBundle 'elzr/vim-json'
-" You can specify revision/branch/tag.
-NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
+NeoBundle 'Shougo/vimshell'
 
 " Required:
 call neobundle#end()
