@@ -97,6 +97,7 @@ endif
 
 " Conceal機能を無効化する
 let g:tex_conceal=''
+let g:vim_json_syntax_conceal = 0
 
 " 分割した設定ファイルをすべて読み込む
 set runtimepath+=~/.vim/
