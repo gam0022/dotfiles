@@ -10,6 +10,7 @@ au BufNewFile,BufRead *.cpp  set nowrap tabstop=4 shiftwidth=4
 au BufNewFile,BufRead *.h    set nowrap tabstop=4 shiftwidth=4
 au BufNewFile,BufRead *.java set nowrap tabstop=4 shiftwidth=4
 au BufNewFile,BufRead *.tex  set nowrap tabstop=4 shiftwidth=4
+au BufNewFile,BufRead *.go   set nowrap tabstop=4 shiftwidth=4 noexpandtab
 
 set autoindent
 set incsearch
