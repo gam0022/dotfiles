@@ -11,7 +11,9 @@ au BufNewFile,BufRead *.h    set nowrap tabstop=4 shiftwidth=4
 au BufNewFile,BufRead *.java set nowrap tabstop=4 shiftwidth=4
 au BufNewFile,BufRead *.tex  set nowrap tabstop=4 shiftwidth=4
 au BufNewFile,BufRead *.go   set nowrap tabstop=4 shiftwidth=4 noexpandtab
-au BufNewFile,BufRead *.conf set nowrap tabstop=4 shiftwidth=4 noexpandtab
+au BufNewFile,BufRead *.conf set nowrap tabstop=4 shiftwidth=4
+au BufNewFile,BufRead *.html set nowrap tabstop=4 shiftwidth=4 noexpandtab
+au BufNewFile,BufRead *.js set nowrap tabstop=4 shiftwidth=4
 
 set autoindent
 set incsearch

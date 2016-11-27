@@ -89,12 +89,6 @@ alias xbb='extractbb'
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-# The next line updates PATH for the Google Cloud SDK.
-source '/Users/gam0022/google-cloud-sdk/path.zsh.inc'
-
-# The next line enables shell command completion for gcloud.
-source '/Users/gam0022/google-cloud-sdk/completion.zsh.inc'
-
 # go
 export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME
@@ -106,3 +100,12 @@ export PATH=$PATH:$HOME/projects/ll_docker/bin_for_host/
 
 # git-tools
 export PATH=$PATH:$HOME/lovelive-operations/git-tools
+
+# c++11
+alias cpp11='g++ -std=c++11'
+
+# server
+alias http-server='ruby -run -e httpd .'
+
+# emscripten
+export PATH=$PATH:$HOME/emsdk_portable/emscripten/1.35.0/
