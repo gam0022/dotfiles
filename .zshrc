@@ -75,6 +75,7 @@ setopt transient_rprompt
 eval "$(rbenv init - zsh)"
 eval "$(pyenv init -)"
 
+export PATH=$PATH:/Applications/MacVim.app/Contents/bin
 EDITOR=mvim
 
 # Sublime Text 3
