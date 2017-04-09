@@ -1,0 +1,16 @@
+*~
+.DS_Store
+*.swp
+.ruby-version
+src/eclipse/.metadata/.mylyn
+src/eclipse/.metadata/.plugins/
+*.aux
+*.dvi
+*.log
+~$*.docx
+Thumbs.db
+.swm
+.swn
+.swo
+.dropbox
+.swl
