@@ -18,6 +18,7 @@ if dein#load_state('/Users/gam0022/.vim/bundles')
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
   call dein#add('Shougo/neocomplete.vim')
+  call dein#add('Yggdroot/indentLine')
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
