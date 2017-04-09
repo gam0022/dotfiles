@@ -28,7 +28,7 @@ filetype indent on
 filetype plugin on
 
 "colorscheme molokai
-colorscheme desert
+"colorscheme desert
 
 if has('win32')
   " Windows用
