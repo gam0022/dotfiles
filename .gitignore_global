@@ -1,9 +1,7 @@
 *~
+.vimrc~
 .DS_Store
 *.swp
-.ruby-version
-src/eclipse/.metadata/.mylyn
-src/eclipse/.metadata/.plugins/
 *.aux
 *.dvi
 *.log

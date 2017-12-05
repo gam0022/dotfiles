@@ -87,15 +87,15 @@ set laststatus=2
 
 " http://qiita.com/creasty/items/30d1f0fc262f7c455d14
 " 英数入力に自動で切り替える
-if executable('osascript')
-  let s:keycode_jis_eisuu = 102
-  let g:force_alphanumeric_input_command = "osascript -e 'tell application \"System Events\" to key code " . s:keycode_jis_eisuu . "' &"
-
-  inoremap <silent> <Esc> <Esc>:call system(g:force_alphanumeric_input_command)<CR>
-
-  autocmd! FocusGained *
-    \ call system(g:force_alphanumeric_input_command)
-endif
+"if executable('osascript')
+"  let s:keycode_jis_eisuu = 102
+"  let g:force_alphanumeric_input_command = "osascript -e 'tell application \"System Events\" to key code " . s:keycode_jis_eisuu . "' &"
+"
+"  inoremap <silent> <Esc> <Esc>:call system(g:force_alphanumeric_input_command)<CR>
+"
+"  autocmd! FocusGained *
+"    \ call system(g:force_alphanumeric_input_command)
+"endif
 
 " Conceal機能を無効化する
 let g:tex_conceal=''

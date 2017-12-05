@@ -110,3 +110,6 @@ alias http-server='ruby -run -e httpd .'
 
 # emscripten
 export PATH=$PATH:$HOME/emsdk_portable/emscripten/1.35.0/
+
+# mecab
+export MECAB_PATH=/usr/lib/libmecab.so.2
