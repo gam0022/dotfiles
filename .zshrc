@@ -11,6 +11,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# https://github.com/sorin-ionescu/prezto/issues/205
+unalias rm
+
 export PATH=$PATH:$HOME/bin:/usr/local/bin:/usr/local/texlive/2013/bin/x86_64-darwin:/usr/local/octave/3.8.0/bin:/Applications/MacVim.app/Contents/MacOS
 alias ll='ls -alF'
 alias l='ls'

@@ -224,6 +224,3 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs histor
 # before deleting or overwriting files. Set to 'no' to disable this safer
 # behavior.
 # zstyle ':prezto:module:utility' safe-ops 'yes'
-
-# https://github.com/sorin-ionescu/prezto/issues/205
-unalias rm
