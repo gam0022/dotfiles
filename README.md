@@ -6,7 +6,7 @@
 ## Requirements
 
 - [Prezto](https://github.com/sorin-ionescu/prezto)
-  - [Ricty for powerline](https://qiita.com/osakanafish/items/731dc31168e3330dbcd0)
+  - [Ricty for powerline](https://qiita.com/hoto17296/items/ccbd6b413e67a653f2df)
 - [dein.vim](https://github.com/Shougo/dein.vim)
 
 ## Install (Mac)
