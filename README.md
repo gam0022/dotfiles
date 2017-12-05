@@ -6,6 +6,7 @@
 ## Requirements
 
 - [Prezto](https://github.com/sorin-ionescu/prezto)
+  - [Ricty for powerline](https://qiita.com/osakanafish/items/731dc31168e3330dbcd0)
 - [dein.vim](https://github.com/Shougo/dein.vim)
 
 ## Install (Mac)
@@ -16,6 +17,7 @@ cd ~/Dropbox
 git clone git@github.com:gam0022/dotfiles.git
 
 # .で始まるファイルのシンボリックリンクをホームディレクトリ直下に作成します。
+cd dotfiles
 ./setup.sh
 ```
 
