@@ -7,7 +7,7 @@
 
 - [Prezto](https://github.com/sorin-ionescu/prezto)
   - [Ricty for powerline](https://qiita.com/hoto17296/items/ccbd6b413e67a653f2df)
-- [dein.vim](https://github.com/Shougo/dein.vim)
+- [dein.vim](https://github.com/Shougo/dein.vim) into `~/.dein`
 
 ## Install (Mac)
 
