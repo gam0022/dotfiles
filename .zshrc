@@ -82,6 +82,6 @@ export MECAB_PATH=/usr/lib/libmecab.so.2
 # load klab.zshrc
 . ~/.klab.zshrc
 
-if (which zprof > /dev/null) ;then
-  zprof
-fi
+#if (which zprof > /dev/null) ;then
+#  zprof
+#fi
