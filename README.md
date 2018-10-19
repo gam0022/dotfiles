@@ -33,6 +33,7 @@ GVimでは、`~` が `C:\Users\<ユーザ名>` となるようです。
 
 ```bash
 cd C:\Users\<ユーザ名>\
-mklink .vimrc dotfiles\.vimrc
-mklink /d .vim dotfiles\.vim
+mklink .vimrc Dropbox\dotfiles\.vimrc
+mklink /d .vim Dropbox\dotfiles\.vim
+mklink /d .ssh  Dropbox\dotfiles\.ssh
 ```
