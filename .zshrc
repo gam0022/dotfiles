@@ -16,9 +16,11 @@ fi
 unalias rm
 
 export PATH=$PATH:$HOME/.bin
-alias ll='ls -alF'
+alias ll='ls -alFh'
 alias l='ls'
 alias sshe='cocot -t UTF-8 -p EUC-JP -- ssh' #EUC-JP環境にsshする
+
+export PATH=$PATH:/usr/local/bin
 
 # http://jmblog.jp/archives/307
 #export CLICOLOR=1
@@ -36,7 +38,7 @@ alias javac='javac -J-Dfile.encoding=utf-8'
 alias java='java -Dfile.encoding=utf-8'
 
 # zshで右プロンプトを自動的に消す
-setopt transient_rprompt
+#setopt transient_rprompt
 
 # OPAM configuration
 . $HOME/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
@@ -67,6 +69,9 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # git-tools
 export PATH=$PATH:$HOME/lovelive-operations/git-tools
 
+# adb
+export PATH=$PATH:$HOME/Library/Android/sdk/platform-tools
+
 # c++11
 alias cpp11='g++ -std=c++11'
 
@@ -74,10 +79,20 @@ alias cpp11='g++ -std=c++11'
 alias http-server='ruby -run -e httpd .'
 
 # emscripten
-export PATH=$PATH:$HOME/emsdk_portable/emscripten/1.35.0/
+# source ~/emsdk/emsdk_env.sh
 
 # mecab
 export MECAB_PATH=/usr/lib/libmecab.so.2
+
+# rustup
+source ~/.cargo/env
+
+# vscode
+PATH='/Applications/Visual Studio Code.app/Contents/Resources/app/bin':$PATH
+
+# node
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+# /usr/local/etc/bash_completion.d
 
 # load klab.zshrc
 . ~/.klab.zshrc
@@ -85,3 +100,10 @@ export MECAB_PATH=/usr/lib/libmecab.so.2
 #if (which zprof > /dev/null) ;then
 #  zprof
 #fi
+export PATH="/usr/local/opt/libxml2/bin:$PATH"
+
+# rbenv
+eval "$(rbenv init -)"
+
+# llvm
+export PATH="/usr/local/opt/llvm/bin:$PATH"

@@ -12,3 +12,6 @@ Thumbs.db
 .swo
 .dropbox
 .swl
+.DS_Store
+
+# tmp

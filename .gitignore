@@ -3,3 +3,6 @@
 .ssh
 .klab.zshrc
 .bin
+*~
+.DS_Store
+*.swp
