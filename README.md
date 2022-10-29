@@ -23,7 +23,9 @@ cd dotfiles
 
 ## Install (Windows)
 
-`setup.bat` を用意していないので、手動でシンボリックリンクを作成します。
+bash をインストールして、Mac と同じ手順を実行してください。
+
+もしくは、手動でシンボリックリンクを作成することも可能です。
 
 基本的にはMacと同じですが、`mklink`は`ln`と src と dst が逆なので注意が必要です。
 
@@ -33,6 +35,7 @@ GVimでは、`~` が `C:\Users\<ユーザ名>` となるようです。
 
 ```bash
 cd C:\Users\<ユーザ名>\
-mklink .vimrc dotfiles\.vimrc
-mklink /d .vim dotfiles\.vim
+mklink .vimrc Dropbox\dotfiles\.vimrc
+mklink /d .vim Dropbox\dotfiles\.vim
+mklink /d .ssh  Dropbox\dotfiles\.ssh
 ```
